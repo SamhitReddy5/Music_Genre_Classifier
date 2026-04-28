@@ -16,13 +16,13 @@ A machine learning web application that predicts the genre of an audio file usin
 ## Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/Home.png)
 
 ### Upload
-![Upload](screenshots/upload.png)
+![Upload](screenshots/Upload.png)
 
 ### Result
-![Result](screenshots/result.png)
+![Result](screenshots/Result.png)
 
 ---
 
