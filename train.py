@@ -6,7 +6,6 @@ import tensorflow as tf
 
 DATASET_PATH = "data/genres"
 
-# ✅ Only keep real directories
 GENRES = sorted([
     d for d in os.listdir(DATASET_PATH)
     if os.path.isdir(os.path.join(DATASET_PATH, d))
@@ -20,7 +19,6 @@ print("Loading dataset...")
 for label, genre in enumerate(GENRES):
     genre_path = os.path.join(DATASET_PATH, genre)
 
-    # ✅ Only process audio files
     for file in os.listdir(genre_path):
         if not file.endswith(".wav"):
             continue
