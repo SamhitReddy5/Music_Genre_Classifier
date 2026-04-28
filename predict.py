@@ -2,7 +2,6 @@ import numpy as np
 import librosa
 import tensorflow as tf
 
-# Load model once
 model = tf.keras.models.load_model("model.h5", compile=False)
 
 GENRES = [
